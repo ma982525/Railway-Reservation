@@ -34,6 +34,30 @@
 ![image](https://user-images.githubusercontent.com/54614262/169038138-0ad619b8-e853-4a67-8a7c-8fc50e6b87b0.png)
 
 
+# Files details
+
+index.php is our home page which needs user to login first to explore other things.
+
+login/signup is interconnected and accessed from navigation
+
+On index.php search train form is given which redirects to showTrains.php page
+
+showTrains.php page shows all trains from one city to another on particular date.
+
+View details of a particular train opens ViewDetails.php page which shows intermediate stations details.
+
+From showTrains.php and ViewDetails.php we can click on book ticket which redirects to BookPage.
+
+In BookPage adding Traveller details are added using a function there and updates all details there.
+
+When clicks on book, booking_Handle.php handles the booking and redirects to bookingHistory.php page.
+
+bookingHistory.php page shows upcomming & past booking details.
+
+Upcomming Bookings are cancelled from bookingHistory.php page. When cancel button clicked CancelBooking_handle.php page handles the request and send back to bookingHistory.php page.
+
+In common/navigation.php navbar file is given which is used in all files.
+
 
 # Thankyou...
 Happy Learning!
